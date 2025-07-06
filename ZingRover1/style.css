@@ -1,0 +1,146 @@
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* First Div */
+#firstDiv {
+    
+        display: flex;
+        justify-content: space-between;
+        background-color: #BA90C6;
+        padding: 20px;
+        color: #702963;
+    
+
+   
+}
+#searchInput {
+    background-color: #702963;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Second Div */
+#secondDiv {
+    background-color: #702963;
+    color: #fff;
+    padding: 20px;
+    text-shadow: #000;
+    
+    text-align: left;
+}
+
+/* Third Div */
+#thirdDiv {
+    background-color: #EDD3F4;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#fifthDiv {
+    background-color: #E7BCDE;
+    text-align: center;
+    padding: 20px;
+}
+
+.featuredRestaurants {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.restaurantContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.restaurantCard {
+
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.restaurantImage {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.restaurantCaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+
+#burgerContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Fourth Div */
+#fourthDiv {
+    background-color: #000;
+    color: #fff;
+    padding: 200px;
+}
+
+.topCities {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cityColumn {
+    width: 33%;
+    float: left;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8e6e97;
+}
+
+#mainDiv {
+    width: 750px;
+    margin: 50px auto;
+    background-image: url('https://149446486.v2.pressablecdn.com/wp-content/uploads/2021/12/charcookie-board-750x422.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: center;
+}
+
+#mainDiv h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#orderButton {
+    background-color: #ffd700; /* Golden color */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#orderButton:hover {
+    background-color: #e5bf00; /* Darker golden color on hover */
+}
+
+
+</style>
